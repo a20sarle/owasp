@@ -1,1 +1,13 @@
-<mxlibrary>[]</mxlibrary>
+<mxfile host="65bd71144e">
+    <diagram id="z9d9O9BV1oLTM0DgJ9GB" name="Page-1">
+        <mxGraphModel dx="1104" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;OWASP&amp;nbsp;WSTG - v4.2&lt;/h1&gt;&lt;p&gt;Swimlane model based on WSTG v4.2 (https://owasp.org/www-project-web-security-testing-guide/v42/)&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="80" width="400" height="120" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
