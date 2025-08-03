@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="z9d9O9BV1oLTM0DgJ9GB" name="Page-1">
-        <mxGraphModel dx="916" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1900" dy="657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -9,19 +9,19 @@
                 </mxCell>
                 <mxCell id="5" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="80" y="280" as="sourcePoint"/>
-                        <mxPoint x="80" y="200" as="targetPoint"/>
+                        <mxPoint x="-720" y="280" as="sourcePoint"/>
+                        <mxPoint x="-720" y="200" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="6" value="Define" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5">
                     <mxGeometry x="0.052" y="-4" relative="1" as="geometry">
-                        <mxPoint x="-4" y="2" as="offset"/>
+                        <mxPoint x="-4" y="3" as="offset"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="11" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="80" y="360" as="sourcePoint"/>
-                        <mxPoint x="80" y="280" as="targetPoint"/>
+                        <mxPoint x="-730" y="2320.86" as="sourcePoint"/>
+                        <mxPoint x="-730" y="2240.86" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="12" value="Design" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="11">
@@ -29,21 +29,40 @@
                         <mxPoint x="-4" y="2" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="13" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="1">
-                    <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="80" y="440" as="sourcePoint"/>
-                        <mxPoint x="80" y="360" as="targetPoint"/>
+                <mxCell id="20" value="Legal coucil" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" vertex="1" parent="1">
+                    <mxGeometry x="-490" y="200" width="200" height="10000" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="Give each asset a security classification that state how they are to be handeled (confidental, secret, top secret), p16" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="20">
+                    <mxGeometry x="44" y="920.86" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="100" value="" style="shape=link;html=1;strokeColor=#33FF33;" edge="1" parent="20">
+                    <mxGeometry width="100" relative="1" as="geometry">
+                        <mxPoint x="-210" y="2040.8600000000001" as="sourcePoint"/>
+                        <mxPoint x="1590" y="2040.8600000000001" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="14" value="Develop" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="13">
-                    <mxGeometry x="0.052" y="-4" relative="1" as="geometry">
-                        <mxPoint x="-4" y="2" as="offset"/>
+                <mxCell id="22" value="Authorities" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" vertex="1" parent="1">
+                    <mxGeometry x="-690" y="200" width="200" height="10000" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="Regulations, law,directives, etc., p16" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="22">
+                    <mxGeometry x="40" y="870.86" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="101" value="" style="shape=link;html=1;strokeColor=#33FF33;" edge="1" parent="22">
+                    <mxGeometry width="100" relative="1" as="geometry">
+                        <mxPoint y="2910.86" as="sourcePoint"/>
+                        <mxPoint x="2000" y="2911" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="15" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="1">
+                <mxCell id="122" value="" style="shape=link;html=1;strokeColor=#33FF33;" edge="1" parent="22">
+                    <mxGeometry width="100" relative="1" as="geometry">
+                        <mxPoint y="3880" as="sourcePoint"/>
+                        <mxPoint x="2000" y="3880" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="22">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="80" y="520" as="sourcePoint"/>
-                        <mxPoint x="80" y="440" as="targetPoint"/>
+                        <mxPoint x="-30" y="5280" as="sourcePoint"/>
+                        <mxPoint x="-30" y="5200" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="16" value="Deploy" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="15">
@@ -51,15 +70,600 @@
                         <mxPoint x="-4" y="2" as="offset"/>
                     </mxGeometry>
                 </mxCell>
+                <mxCell id="148" value="" style="shape=link;html=1;strokeColor=#33FF33;" edge="1" parent="22">
+                    <mxGeometry width="100" relative="1" as="geometry">
+                        <mxPoint y="5200" as="sourcePoint"/>
+                        <mxPoint x="3400" y="5210" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="26" value="Test engineers" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" vertex="1" parent="1">
+                    <mxGeometry x="710" y="200" width="200" height="10000" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="Come up with &quot;outside of the box&quot; test case scenarios on a casy-by-case basis, p16" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="26">
+                    <mxGeometry x="40" y="840.86" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="Black-box/ penetration/network &amp;amp; operating system testing, p17, p20" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="26">
+                    <mxGeometry x="45" y="4050" width="130" height="82" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="26">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-1240" y="3018.86" as="sourcePoint"/>
+                        <mxPoint x="-1240" y="2938.86" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="14" value="Develop" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="13">
+                    <mxGeometry x="0.052" y="-4" relative="1" as="geometry">
+                        <mxPoint x="-4" y="2" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="111" style="edgeStyle=none;html=1;dashed=1;endArrow=none;endFill=0;startArrow=open;startFill=0;entryX=0.602;entryY=0.995;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="26" source="112" target="43">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="92" y="3038.86" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="112" value="&quot; Penetration testing has been a common technique used to test network security for decades. /.../ testing a system or application&lt;br&gt; remotely to find security vulnerabilities, without knowing the inner workings of the target itself /.../  Typically, the penetration&lt;br&gt; test team is able to access an application as if they were users. &quot;, p20, &quot;penetration testing focuses on identifying vulnerabilities in the application during testing or&lt;br/&gt; validation&quot;, p24,&amp;nbsp;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;fontSize=6;size=13;" vertex="1" parent="26">
+                    <mxGeometry x="20" y="4150" width="170" height="78" as="geometry"/>
+                </mxCell>
+                <mxCell id="132" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="26" source="129" target="130">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="133" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="132">
+                    <mxGeometry x="-0.4185" y="2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="129" value="High or medium risk vulnerabilities, p25" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="26">
+                    <mxGeometry x="60" y="2785" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="130" value="Add US to sprint for development" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="26">
+                    <mxGeometry x="50" y="2950" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="186" value="White box / Source code analysis, p29" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="26">
+                    <mxGeometry x="110" y="4240" width="80" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="187" style="edgeStyle=none;html=1;dashed=1;endArrow=none;endFill=0;startArrow=open;startFill=0;" edge="1" parent="26" source="188" target="186">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="118" y="4210" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="188" value="&quot; After components and code changes are tested by developers and checked in to the application build, the most likely next step in the software development process workflow is to perform tests on the application as a whole entity. This&lt;br&gt; level of testing is usually referred to as integrated test and system level test. When security tests are part of these testing&lt;br&gt; activities, they can be used to validate both the security functionality of the application as a whole, as well as the&lt;br&gt; exposure to application level vulnerabilities. These security tests on the application include both white-box testing,&lt;br&gt; such as source code analysis, and black-box testing, such as penetration testing. Tests can also include gray-box&lt;br&gt; testing /.../  During this phase, it is possible for&lt;br/&gt; security testers to determine whether vulnerabilities can be exploited. These include common web application&lt;br/&gt; vulnerabilities, as well as security issues that have been identified earlier in the SDLC with other activities such as&lt;br/&gt; threat modeling, source code analysis, and secure code reviews.&quot;, p29" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;fontSize=6;size=13;" vertex="1" parent="26">
+                    <mxGeometry x="15" y="4368" width="170" height="152" as="geometry"/>
+                </mxCell>
+                <mxCell id="191" value="Gray box testing, p29" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="26">
+                    <mxGeometry x="15" y="4240" width="85" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="193" style="edgeStyle=none;html=1;dashed=1;endArrow=none;endFill=0;startArrow=open;startFill=0;exitX=0.354;exitY=0.01;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.581;entryY=1.023;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="26" source="188" target="191">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="150" y="4190" as="targetPoint"/>
+                        <mxPoint x="133" y="4238" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="195" value="Validates security requirements, p29" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="26">
+                    <mxGeometry x="45" y="3960" width="130" height="82" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="Manual inspection (inspect documentation &amp;amp; conduct interviews), p18" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="26">
+                    <mxGeometry x="31" y="5910" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="&quot;... test the security implications of people, policies, and processes /.../ can also include inspection of technology decisions such as architectural designs /.../ They are&lt;br&gt; usually conducted by analyzing documentation or performing interviews with the designers or system owners /.../ Manual inspections and reviews&lt;br&gt; are one of the few ways to test the software development life-cycle process itself and to ensure that there is an&lt;br&gt; adequate policy or skill set in place. /.../ reviewing the documentation, secure coding policies, security requirements, and&lt;br/&gt; architectural designs, should all be accomplished using manual inspections.&quot;, p18, read &quot;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;Manual Inspections and Reviews&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&quot;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;fontSize=6;size=10;" vertex="1" parent="26">
+                    <mxGeometry x="31" y="6030" width="130" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" style="edgeStyle=none;html=1;entryX=0.481;entryY=0.996;entryDx=0;entryDy=0;dashed=1;endArrow=none;endFill=0;startArrow=open;startFill=0;entryPerimeter=0;" edge="1" parent="26" source="65" target="63">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="287" y="5140" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="40" value="Ongoing monotoring and trending of attacks against application and network, p16" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="26">
+                    <mxGeometry x="1846" y="5909.14" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" value="Is interviewed as part of manual inspection, p18" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="26">
+                    <mxGeometry x="1236" y="5910" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" value="Is interviewed as part of manual inspection, p18" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="26">
+                    <mxGeometry x="1036" y="5910" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" value="&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp;Documentation &amp;amp; interview guidelines, p18&lt;/font&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.09560392610319293;verticalAlign=top;" vertex="1" parent="26">
+                    <mxGeometry x="850" y="5910.000000000001" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" style="edgeStyle=none;html=1;entryX=0.022;entryY=0.861;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="26" source="63" target="80">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="87" value="" style="edgeStyle=none;html=1;" edge="1" parent="26" source="63" target="81">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" value="" style="edgeStyle=none;html=1;" edge="1" parent="26" source="63" target="85">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="165" value="Is interviewed as part of manual inspection, p18" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="26">
+                    <mxGeometry x="1436" y="5910" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="166" value="Is interviewed as part of manual inspection, p18" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="26">
+                    <mxGeometry x="1236" y="5910" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="225" value="Release system to operational environment, p29" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="26">
+                    <mxGeometry x="50" y="4530" width="85" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="234" value="" style="shape=link;html=1;strokeColor=#33FF33;" edge="1" parent="26">
+                    <mxGeometry width="100" relative="1" as="geometry">
+                        <mxPoint x="-1210" y="5890" as="sourcePoint"/>
+                        <mxPoint x="2000" y="5890" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="32" value="Storage of documentation &amp;amp; code" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" vertex="1" parent="1">
+                    <mxGeometry x="1710" y="200" width="200" height="10000" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp;Security test report template&lt;/font&gt;&lt;font style=&quot;background-color: transparent;&quot;&gt;, p17 &lt;i&gt;read &quot;&lt;/i&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;&lt;i&gt;Document the Test Results&quot;&lt;/i&gt;&lt;/span&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.09560392610319293;verticalAlign=top;" vertex="1" parent="32">
+                    <mxGeometry x="40" y="1706.8600000000001" width="100" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="264" style="edgeStyle=none;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="32" source="54" target="92">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="210" y="1440" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="54" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Desired &amp;amp; disllowed use cases, p16&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.13095252627418005;verticalAlign=top;" vertex="1" parent="32">
+                    <mxGeometry x="20" y="1216.8600000000001" width="100" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Metrics to measure and track security trends, p17&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.13095252627418005;verticalAlign=top;" vertex="1" parent="32">
+                    <mxGeometry x="40" y="1326.8600000000001" width="100" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="97" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Threat models, p18&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.13095252627418005;verticalAlign=top;" vertex="1" parent="32">
+                    <mxGeometry x="40" y="2948.86" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="104" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="32" source="98" target="97">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="98" value="Develop and document threat models, p18" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="32">
+                    <mxGeometry x="450" y="2938.86" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="99" style="edgeStyle=none;html=1;entryX=0.572;entryY=0.879;entryDx=0;entryDy=0;dashed=1;endArrow=none;endFill=0;startArrow=open;startFill=0;entryPerimeter=0;" edge="1" parent="32" source="96" target="97">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="235" y="2968.86" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="96" value="&quot; It is recommended that all applications&lt;br/&gt; have a threat model developed and documented. Threat models should be created as early as possible in the SDLC,&lt;br/&gt; and should be revisited as the application evolves and development progresses.&quot;, p18" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;fontSize=6;size=13;" vertex="1" parent="32">
+                    <mxGeometry x="70" y="3028.86" width="90" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="117" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Business req., p24&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.13095252627418005;verticalAlign=top;" vertex="1" parent="32">
+                    <mxGeometry x="40" y="40.000000000000114" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="118" value="&quot;A business requirement document can provide initial high-level information on the expected functionality of the application. /.../  A security section of the business requirements should highlight the need to protect the customer data as well as to comply with applicable security documentation such as regulations, standards, and policies. /.../ A general checklist of the applicable regulations, standards, and policies is a good preliminary security compliance&lt;br&gt; analysis for web applications. /.../ Some of these compliance guidelines and regulations might translate into specific technical requirements for security controls&quot;, p24" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;fontSize=6;size=13;" vertex="1" parent="32">
+                    <mxGeometry x="10" y="110" width="180" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="119" style="edgeStyle=none;html=1;entryX=0.55;entryY=0.908;entryDx=0;entryDy=0;dashed=1;endArrow=none;endFill=0;startArrow=open;startFill=0;entryPerimeter=0;" edge="1" parent="32" source="118" target="117">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="97" y="90" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="116" style="edgeStyle=none;html=1;entryX=0.572;entryY=0.879;entryDx=0;entryDy=0;dashed=1;endArrow=none;endFill=0;startArrow=open;startFill=0;entryPerimeter=0;" edge="1" parent="32" source="114" target="115">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="245" y="230.0000000000001" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="114" value="&quot;... how to document requirements for security testing by&lt;br&gt; deriving them from applicable standards and regulations /.../ how to document requirements for security testing by&lt;br&gt; deriving them from applicable standards and regulations, from positive application requirements (specifying what the&lt;br&gt; application is supposed to do), and from negative application requirements (specifying what the application should not&lt;br&gt; do).&quot;, p23, &quot;The first step in the documentation of security requirements is to understand the business requirements /.../&amp;nbsp;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Some of these compliance guidelines and regulations might translate into specific technical requirements for security controls&lt;/span&gt;&quot; p24&amp;nbsp;&lt;i style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;read &quot;&lt;/i&gt;&lt;span style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); background-color: transparent;&quot;&gt;&lt;i style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;Security Requirements Documentation&quot;&lt;br&gt;&lt;/i&gt;&lt;span style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;&lt;br&gt;&quot; the exposure of security controls to common vulnerabilities, such&lt;br&gt; as the OWASP Top Ten, can be a good starting point to derive general security requirements.&quot;, p25&amp;nbsp;&lt;br&gt;&lt;br&gt;&quot; In order to validate security requirements with security tests, security requirements need to be function-driven.&quot;, p26 see&amp;nbsp;Deriving Functional and Non-Functional Test Requirements&lt;/span&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); background-color: transparent;&quot;&gt;&lt;span style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); background-color: transparent;&quot;&gt;&lt;span style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;&quot;The identification of the&lt;br/&gt; most critical misuse and abuse cases drives the documentation of security requirements and the necessary controls&lt;br/&gt; where security risks should be mitigated.&quot;, p27&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;fontSize=6;size=13;" vertex="1" parent="32">
+                    <mxGeometry x="10" y="290" width="180" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="115" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Security requirements, p23&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.13095252627418005;verticalAlign=top;" vertex="1" parent="32">
+                    <mxGeometry x="50" y="210" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="92" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Threat models, p18&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.13095252627418005;verticalAlign=top;" vertex="1" parent="32">
+                    <mxGeometry x="50" y="2060" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="94" value="&quot; It is recommended that all applications&lt;br&gt; have a threat model developed and documented. Threat models should be created as early as possible in the SDLC,&lt;br&gt; and should be revisited as the application evolves and development progresses. /.../  To develop a threat model, we recommend taking a simple approach that follows the NIST 800-30 standard for risk assessment.&quot;, p18, &quot; The output from a threat model itself can vary but is typically a collection of lists and diagrams.&quot;, p19, &quot;threat modeling focuses on identifying security flaws during design&quot;, p24, , &quot;the OWASP Top Ten vulnerabilities can be mapped to attacks such as phishing, privacy violations, identify theft, system compromise, data alteration or data&lt;br&gt; destruction, financial loss, and reputation loss. Such issues should be documented as part of the threat scenarios.&quot;, p25,&amp;nbsp;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;fontSize=6;size=13;" vertex="1" parent="32">
+                    <mxGeometry x="10" y="2140" width="180" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="93" style="edgeStyle=none;html=1;entryX=0.572;entryY=0.879;entryDx=0;entryDy=0;dashed=1;endArrow=none;endFill=0;startArrow=open;startFill=0;entryPerimeter=0;" edge="1" parent="32" source="94" target="92">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="245" y="2080" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="91" value="Develop and document threat models, p18" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="32">
+                    <mxGeometry x="460" y="2050" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="103" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="32" source="91" target="92">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="123" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;threat and countermeasure classificatio, p25&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.13095252627418005;verticalAlign=top;" vertex="1" parent="32">
+                    <mxGeometry x="50" y="2280" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="124" value="&quot; A threat and countermeasure classification , which takes into consideration root causes of vulnerabilities, is the&lt;br&gt; critical factor in verifying that security controls are designed, coded, and built to mitigate the impact of the exposure of&lt;br&gt; such vulnerabilities. /.../  The focus of a threat and countermeasure categorization is to define security requirements in terms of the threats and the root cause of the vulnerability&quot;, p25 read&amp;nbsp;Threats and Countermeasures Taxonomies" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;fontSize=6;size=13;" vertex="1" parent="32">
+                    <mxGeometry x="10" y="2366" width="180" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="125" style="edgeStyle=none;html=1;entryX=0.508;entryY=0.937;entryDx=0;entryDy=0;dashed=1;endArrow=none;endFill=0;startArrow=open;startFill=0;entryPerimeter=0;" edge="1" parent="32" source="124" target="123">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="97" y="2330" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="126" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;risk mitigation&lt;br/&gt; strategy,p 25&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.13095252627418005;verticalAlign=top;" vertex="1" parent="32">
+                    <mxGeometry x="30" y="1000" width="100" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="127" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt; secure&lt;br/&gt; coding standards,p 25&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.13095252627418005;verticalAlign=top;" vertex="1" parent="32">
+                    <mxGeometry x="30" y="910" width="100" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="131" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Backlog&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.13095252627418005;verticalAlign=top;" vertex="1" parent="32">
+                    <mxGeometry x="40" y="2800" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="262" value="&quot;threat scenarios identified with use and misuse cases can be used to document the procedures for testing software components.&quot;, p30" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;fontSize=6;size=13;" vertex="1" parent="32">
+                    <mxGeometry x="5" y="1160" width="190" height="32.86" as="geometry"/>
+                </mxCell>
+                <mxCell id="263" style="edgeStyle=none;html=1;dashed=1;endArrow=none;endFill=0;startArrow=open;startFill=0;entryX=0.375;entryY=-0.026;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="32" source="262" target="54">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="90" y="1080" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="34" value="?" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" vertex="1" parent="1">
+                    <mxGeometry x="1510" y="200" width="200" height="10000" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&quot;&lt;i&gt;... require accurate documentation of the&lt;/i&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;i&gt;&amp;nbsp;application.&lt;/i&gt;&quot; p16&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="34">
+                    <mxGeometry x="40" y="1156.8600000000001" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;i&gt;&amp;nbsp;Develop consistent metrics that can be generated in an automated way from available source code&lt;/i&gt;&lt;/font&gt;&lt;/span&gt;&lt;i&gt;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;&amp;nbsp;p17&lt;/span&gt;&lt;/i&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="34">
+                    <mxGeometry x="40" y="1266.8600000000001" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&quot;&lt;i&gt;...&amp;nbsp;&lt;/i&gt;&lt;/font&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;i&gt;develop metrics that will reveal the application security trends&lt;/i&gt;&lt;/span&gt;&lt;i style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;.&lt;/i&gt;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;&quot; p17&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="34">
+                    <mxGeometry x="40" y="1386.8600000000001" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" style="edgeStyle=none;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;dashed=1;endArrow=none;endFill=0;startArrow=open;startFill=0;" edge="1" parent="34" source="47" target="46">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent; line-height: 0%;&quot;&gt;Good metrics will show if ...&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent; line-height: 0%;&quot;&gt;* more education and training are required&lt;br&gt;*&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;line-height: 0%;&quot;&gt;&amp;nbsp;there is a particular security mechanism that is not clearly understood by the development team&lt;br&gt;*&amp;nbsp;the total number of security related problems being found is decreasing&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;line-height: 0%;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;line-height: 0%;&quot;&gt;/.../&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;Metrics are not easily developed, so using a standard such as the one provided by the IEEE is a good&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;line-height: 0%;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&amp;nbsp;starting point.&lt;/span&gt;&amp;nbsp;p17&lt;/span&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;fontSize=6;size=13;" vertex="1" parent="34">
+                    <mxGeometry x="30" y="1506.8600000000001" width="90" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: rgb(63, 63, 63);&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;Agree (all roles) on a testing format for the testing report concluding the testing&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;what testing actions were taken, by whom,&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: rgb(63, 63, 63);&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp;when they were performed, and details of the test findings. Read &quot;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;Document the Test Results&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: rgb(63, 63, 63);&quot;&gt;&lt;font&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font&gt;&quot;&lt;/font&gt;&lt;/span&gt;&lt;font&gt;,&amp;nbsp;&lt;/font&gt;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: rgb(63, 63, 63);&quot;&gt;p17&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="34">
+                    <mxGeometry x="15" y="1656.8600000000001" width="150" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="108" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Source code&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.13095252627418005;verticalAlign=top;" vertex="1" parent="34">
+                    <mxGeometry x="80" y="3810" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="197" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&amp;nbsp;security testing guidelines and procedures (incl.&amp;nbsp;security test cases), p29&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.13095252627418005;verticalAlign=top;" vertex="1" parent="34">
+                    <mxGeometry x="80" y="3960" width="100" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="199" style="edgeStyle=none;html=1;dashed=1;endArrow=none;endFill=0;startArrow=open;startFill=0;entryX=0.544;entryY=0.905;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="34" source="200" target="197">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="118" y="4000" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="200" value="&quot; In order to perform security&lt;br/&gt; tests, it is a prerequisite that security test cases are documented in the security testing guidelines and procedures.&quot;, p29" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;fontSize=6;size=13;" vertex="1" parent="34">
+                    <mxGeometry x="30" y="4068" width="125" height="42" as="geometry"/>
+                </mxCell>
+                <mxCell id="250" value="Deploy system, p29" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="34">
+                    <mxGeometry x="37.5" y="5240" width="142.5" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="254" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Secure coding standards, p30&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.13095252627418005;verticalAlign=top;" vertex="1" parent="34">
+                    <mxGeometry x="40" y="2940" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="Intrusion detection system" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" vertex="1" parent="1">
+                    <mxGeometry x="2710" y="200" width="200" height="10000" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="51" target="52">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="28" target="54">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="50" target="57">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" style="edgeStyle=none;html=1;entryX=-0.033;entryY=0.859;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="46" target="57">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1560" y="1506.8600000000001" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="60" value="Security testers" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" vertex="1" parent="1">
+                    <mxGeometry x="2310" y="200" width="200" height="10000" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="Write testing report based on the accepted testing report format,&amp;nbsp;&lt;font style=&quot;scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;, p17&amp;nbsp;&lt;i style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;read &quot;&lt;/i&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); background-color: transparent;&quot;&gt;&lt;i style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;Document the Test Results&quot;&lt;/i&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="60">
+                    <mxGeometry x="40" y="2938.86" width="120" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" style="edgeStyle=none;html=1;exitX=0.257;exitY=0.963;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="52" target="61">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" value="System owners / manager" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" vertex="1" parent="1">
+                    <mxGeometry x="1910" y="200" width="200" height="10000" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="System designers" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" vertex="1" parent="1">
+                    <mxGeometry x="2110" y="200" width="200" height="10000" as="geometry"/>
+                </mxCell>
+                <mxCell id="120" value="T" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-720" y="4160" as="sourcePoint"/>
+                        <mxPoint x="-720" y="4080" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="121" value="Testing &lt;br&gt;(system &lt;br&gt;level)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="120">
+                    <mxGeometry x="0.052" y="-4" relative="1" as="geometry">
+                        <mxPoint x="-4" y="2" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="134" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="129" target="131">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="135" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="134">
+                    <mxGeometry x="-0.777" y="-2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="138" value="Senior developer" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" vertex="1" parent="1">
+                    <mxGeometry x="1110" y="200" width="200" height="10000" as="geometry"/>
+                </mxCell>
+                <mxCell id="142" style="edgeStyle=none;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;dashed=1;endArrow=none;endFill=0;startArrow=open;startFill=0;" edge="1" parent="138" source="143">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="115" y="1486.8600000000001" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="147" value="&quot;The validation of source code before integration in application builds is usually the responsibility of the senior&lt;br&gt; developer&quot;, p29," style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;fontSize=6;size=13;" vertex="1" parent="138">
+                    <mxGeometry x="20" y="3610" width="90" height="51" as="geometry"/>
+                </mxCell>
+                <mxCell id="150" value="Lead the secure code review, p29" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="138">
+                    <mxGeometry x="40" y="3900" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="149" style="edgeStyle=none;html=1;entryX=0.501;entryY=0.886;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="145" target="108">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="160" value="Build master (Sr. dev/Op.)" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" vertex="1" parent="1">
+                    <mxGeometry x="1310" y="200" width="200" height="10000" as="geometry">
+                        <mxRectangle x="1110" y="200" width="180" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="161" style="edgeStyle=none;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;dashed=1;endArrow=none;endFill=0;startArrow=open;startFill=0;" edge="1" parent="160">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="115" y="1486.8600000000001" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="171" value="&quot;The guidelines describe the build master as the person who reviews test results reported by developers (such as results from static and dynamic analysis), and then grants approval for checking code changes into the application build. This role is generally filled by a senior developer or someone responsible for the build process&quot;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;fontSize=6;size=13;" vertex="1" parent="1">
+                    <mxGeometry x="1330" y="85" width="140" height="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="172" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;endArrow=none;endFill=0;startArrow=open;startFill=0;entryPerimeter=0;exitX=0.461;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="160" target="171">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1415" y="60" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="176" value="Developers" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" vertex="1" parent="1">
+                    <mxGeometry x="910" y="200" width="200" height="10000" as="geometry"/>
+                </mxCell>
+                <mxCell id="178" value="" style="shape=link;html=1;strokeColor=#33FF33;" edge="1" parent="176">
+                    <mxGeometry width="100" relative="1" as="geometry">
+                        <mxPoint y="2910.86" as="sourcePoint"/>
+                        <mxPoint x="2000" y="2911" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="179" value="" style="shape=link;html=1;strokeColor=#33FF33;" edge="1" parent="176">
+                    <mxGeometry width="100" relative="1" as="geometry">
+                        <mxPoint y="3880" as="sourcePoint"/>
+                        <mxPoint x="2000" y="3880" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="182" value="" style="edgeStyle=none;html=1;" edge="1" parent="176" source="180" target="181">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="180" value="Report test results, p29" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="176">
+                    <mxGeometry x="40" y="3600" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="145" value="Validate source code, p29" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="176">
+                    <mxGeometry x="250" y="3690" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="184" style="edgeStyle=none;html=1;" edge="1" parent="176" source="181" target="145">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="169" value="Formally accept secure code validation, p29" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="176">
+                    <mxGeometry x="440" y="3690" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="173" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Fomal acceptance of software changes (sign off that it&#39;s ready for integration with rest of application), p29&amp;nbsp;&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.13095252627418005;verticalAlign=top;" vertex="1" parent="176">
+                    <mxGeometry x="630" y="3650" width="100" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="181" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Test results, p29&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.13095252627418005;verticalAlign=top;" vertex="1" parent="176">
+                    <mxGeometry x="630" y="3565" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="174" style="edgeStyle=none;html=1;" edge="1" parent="176" source="145" target="169">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="183" value="" style="edgeStyle=none;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="176" source="181" target="169">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="175" value="" style="edgeStyle=none;html=1;" edge="1" parent="176" source="169" target="173">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="89" value="Manual inspection (&quot;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;how something works and why it was implemented in a specific&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&amp;nbsp;way, the tester can quickly determine if any security concerns are likely to be evident&lt;/span&gt;&lt;/font&gt;&quot;), p18" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="176">
+                    <mxGeometry x="20" y="3420" width="160" height="140.86" as="geometry"/>
+                </mxCell>
+                <mxCell id="106" value="&quot;Source code review is the process of manually checking the source code of a web application for security issues. /.../ the source code should be made available for testing purposes&quot;, p19, &quot;secure code analysis and reviews focus on identifying security issues in source code during&lt;br&gt; development&quot;, p24, &quot;validated through secure code reviews during the development phase of the SDLC&quot;, p25, &quot; The validation of source code before integration in application builds is usually the responsibility of the senior developer /.../  During this phase [full syste testing], it is possible for&lt;br/&gt; security testers to determine whether vulnerabilities can be exploited. These include common web application&lt;br/&gt; vulnerabilities, as well as security issues that have been identified earlier in the SDLC with other activities such as&lt;br/&gt; threat modeling, source code analysis, and secure code reviews.&quot;, p29," style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;fontSize=6;size=13;" vertex="1" parent="176">
+                    <mxGeometry x="5" y="3277.14" width="190" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="Source code review &amp;amp; analysis, p17, p29" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="176">
+                    <mxGeometry x="30" y="3160" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="run security test cases, p30" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="176">
+                    <mxGeometry x="80" y="3040" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="105" style="edgeStyle=none;html=1;dashed=1;endArrow=none;endFill=0;startArrow=open;startFill=0;" edge="1" parent="176" source="106" target="45">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="307" y="3194.86" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="246" value="fix all high risk vulnerabilities, p29" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="176">
+                    <mxGeometry x="28.75" y="5020" width="142.5" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="253" value="Develop based on secure coding standards requirements, p30&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="176">
+                    <mxGeometry x="50" y="2920" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="258" value="Dynamic testing/debugging, p17, p30" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="176">
+                    <mxGeometry x="20" y="3100" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="185" value="Check in code in application build, p29" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="1360" y="4010" width="100" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="109" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="45" target="108">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1050" y="3390.86" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="194" style="edgeStyle=none;html=1;entryX=0.154;entryY=1.015;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="186" target="108">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="146" style="edgeStyle=none;html=1;dashed=1;endArrow=none;endFill=0;startArrow=open;startFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="147" target="145">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1222" y="3580" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="198" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="195" target="197">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="201" value="Operational environment of system" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" vertex="1" parent="1">
+                    <mxGeometry x="310" y="200" width="200" height="10000" as="geometry"/>
+                </mxCell>
+                <mxCell id="203" value="" style="shape=link;html=1;strokeColor=#33FF33;" edge="1" parent="201">
+                    <mxGeometry width="100" relative="1" as="geometry">
+                        <mxPoint x="-210" y="2040.8600000000001" as="sourcePoint"/>
+                        <mxPoint x="1590" y="2040.8600000000001" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="224" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;System&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.13095252627418005;verticalAlign=top;" vertex="1" parent="201">
+                    <mxGeometry x="50" y="4570" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="240" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;information risk management procedures, p29&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.13095252627418005;verticalAlign=top;" vertex="1" parent="201">
+                    <mxGeometry x="60" y="4880" width="100" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="257" value="security test cases, p30" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="201">
+                    <mxGeometry x="40" y="2950" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="259" value="&quot;A generic security test suite could be derived from previously defined use and misuse cases to security test functions, methods and classes /.../ Developers empowered with a source code analysis tool integrated into their IDE, secure coding standards, and a&lt;br&gt; security unit testing framework can assess and verify the security of the software components being developed. /.../  Unit test frameworks such as JUnit, NUnit, and CUnit can be adapted to&lt;br&gt; verify security test requirements /.../  threat scenarios identified with use and misuse cases can be used to document the procedures for testing software&lt;br/&gt; components.&quot;, p30" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;fontSize=6;size=13;" vertex="1" parent="201">
+                    <mxGeometry x="5" y="3047.14" width="190" height="92.86" as="geometry"/>
+                </mxCell>
+                <mxCell id="260" style="edgeStyle=none;html=1;dashed=1;endArrow=none;endFill=0;startArrow=open;startFill=0;entryX=0.395;entryY=0.933;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="201" source="259" target="257">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="88" y="3030" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="204" value="3rd party" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" vertex="1" parent="1">
+                    <mxGeometry x="-290" y="200" width="200" height="10000" as="geometry"/>
+                </mxCell>
+                <mxCell id="205" value="" style="shape=link;html=1;strokeColor=#33FF33;" edge="1" parent="204">
+                    <mxGeometry width="100" relative="1" as="geometry">
+                        <mxPoint x="-210" y="2040.8600000000001" as="sourcePoint"/>
+                        <mxPoint x="1590" y="2040.8600000000001" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="232" value="White hackers / security consultants are responsible for security testing, p29" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="204">
+                    <mxGeometry x="57.5" y="4660" width="85" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="233" value="Auditing full system and processes, p29" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="204">
+                    <mxGeometry x="57.5" y="4770" width="85" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="239" value="Auditors &amp;amp; info. security officers discuss if the changes are safe enough to be released and analyses according to information risk management procedures, p29" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="204">
+                    <mxGeometry x="28.75" y="4880" width="142.5" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="226" style="edgeStyle=none;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="225" target="224">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="227" value="QA testers" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" vertex="1" parent="1">
+                    <mxGeometry x="110" y="200" width="200" height="10000" as="geometry"/>
+                </mxCell>
+                <mxCell id="228" value="" style="shape=link;html=1;strokeColor=#33FF33;" edge="1" parent="227">
+                    <mxGeometry width="100" relative="1" as="geometry">
+                        <mxPoint x="-210" y="2040.8600000000001" as="sourcePoint"/>
+                        <mxPoint x="1590" y="2040.8600000000001" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="229" value="QA testers are responsible for functional testing of full system, p29" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="227">
+                    <mxGeometry x="57.5" y="4580" width="85" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="231" style="edgeStyle=none;html=1;entryX=0.985;entryY=0.131;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="224" target="229">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
                 <mxCell id="17" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="80" y="600" as="sourcePoint"/>
-                        <mxPoint x="80" y="520" as="targetPoint"/>
+                        <mxPoint x="-740" y="6180" as="sourcePoint"/>
+                        <mxPoint x="-740" y="6100" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="18" value="Maintain" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="17">
                     <mxGeometry x="0.052" y="-4" relative="1" as="geometry">
                         <mxPoint x="-4" y="2" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="235" value="Information security officers / security engineer" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" vertex="1" parent="1">
+                    <mxGeometry x="-90" y="200" width="200" height="10000" as="geometry"/>
+                </mxCell>
+                <mxCell id="236" value="" style="shape=link;html=1;strokeColor=#33FF33;" edge="1" parent="235">
+                    <mxGeometry width="100" relative="1" as="geometry">
+                        <mxPoint x="-210" y="2040.8600000000001" as="sourcePoint"/>
+                        <mxPoint x="1590" y="2040.8600000000001" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="245" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="235" source="241" target="244">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="241" value="Auditors &amp;amp; info. security officers discuss if the changes are safe enough to be released and analyses according to information risk management procedures, p29" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="235">
+                    <mxGeometry x="28.75" y="4880" width="142.5" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="244" value="Secure enough and accept vulnerabilities?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="235">
+                    <mxGeometry x="60" y="5050" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="273" value="Develop &quot;Unit level security test cases&quot;, p30" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="235">
+                    <mxGeometry x="50" y="810.0000000000002" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="275" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="235" source="274" target="273">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="274" value="&quot; Unit level security test cases can be developed by a security engineer who is the subject matter expert in software&lt;br/&gt; security and is also responsible for validating that the security issues in the source code have been fixed and can be&lt;br/&gt; checked in to the integrated system build.&quot;, p30" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="235">
+                    <mxGeometry x="5" y="941" width="190" height="159" as="geometry"/>
+                </mxCell>
+                <mxCell id="242" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="239" target="241">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="243" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="240" target="241">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="247" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.014;entryY=0.585;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="244" target="246">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="248" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="247">
+                    <mxGeometry x="-0.9291" y="-1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="249" value="Operations" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" vertex="1" parent="1">
+                    <mxGeometry x="2510" y="200" width="200" height="10000" as="geometry"/>
+                </mxCell>
+                <mxCell id="251" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="244" target="250">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="252" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="251">
+                    <mxGeometry x="-0.9446" y="-3" relative="1" as="geometry">
+                        <mxPoint x="1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="255" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="254" target="253">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="265" value="-" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" vertex="1" parent="1">
+                    <mxGeometry x="510" y="200" width="200" height="10000" as="geometry"/>
+                </mxCell>
+                <mxCell id="267" value="" style="shape=link;html=1;strokeColor=#33FF33;" edge="1" parent="265">
+                    <mxGeometry width="100" relative="1" as="geometry">
+                        <mxPoint y="2910.86" as="sourcePoint"/>
+                        <mxPoint x="2000" y="2911" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="268" value="" style="shape=link;html=1;strokeColor=#33FF33;" edge="1" parent="265">
+                    <mxGeometry width="100" relative="1" as="geometry">
+                        <mxPoint y="3880" as="sourcePoint"/>
+                        <mxPoint x="2000" y="3880" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="269" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="265">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-30" y="5280" as="sourcePoint"/>
+                        <mxPoint x="-30" y="5200" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="270" value="Deploy" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="269">
+                    <mxGeometry x="0.052" y="-4" relative="1" as="geometry">
+                        <mxPoint x="-4" y="2" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="271" value="" style="shape=link;html=1;strokeColor=#33FF33;" edge="1" parent="265">
+                    <mxGeometry width="100" relative="1" as="geometry">
+                        <mxPoint y="5200" as="sourcePoint"/>
+                        <mxPoint x="3400" y="5210" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
             </root>
